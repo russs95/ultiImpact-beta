@@ -1,0 +1,15 @@
+{
+  "background_color": "#fff",
+  "description": "Track your ultimate impact",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icons/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Green Spirit Impact App",
+  "short_name": "Ultimate Impact",
+  "start_url": "/index.html"
+}
