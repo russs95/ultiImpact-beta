@@ -71,13 +71,10 @@ use_multiple_api_subdomains='false';</script>
  <script type="text/javascript" src="https://loader.knack.com/5d870ebc76396f001097fa2e/dist_3/knack.js"></script>
  
  <style>
-.loader { 
-	z-index: 1;	
-	position: fixed;
- 	 left: 0px;
- 	 top: 0px;
- 	 width: 100%;
- 	 height: 100%;
+.loader { 	
+	position: relative;
+ 	 width: 30%;
+	margin: auto;
 	box-sizing: border-box;
 	top-margin: 300px;
 
@@ -104,9 +101,11 @@ use_multiple_api_subdomains='false';</script>
 	 }
 
 	
-.top-menu { background: green;
-	padding: 18px;
+#header { background: #009933;
 	 }
+	 
+	 
+.logo {padding: 18px;}
   
 
 	
@@ -125,8 +124,8 @@ p {
 	</style>
   
  </head>
-	<div id="header" class="top-menu">
-<a href="/#home"><img src="https://impact.ultiid.com/images/ultimate-impact-250px.png" width="225" alt="Ultimate Impact App"></a></div> 
+	<div id="header">
+<a href="/#home"><div class="logo"><img src="https://impact.ultiid.com/images/ultimate-impact-250px.png" width="230" alt="Ultimate Impact App"></a></div></div> 
  
  <body id="knack-body">
   <div id="knack-content">
